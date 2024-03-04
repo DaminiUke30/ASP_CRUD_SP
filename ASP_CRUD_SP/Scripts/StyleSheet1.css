@@ -1,0 +1,72 @@
+﻿body 
+    /* Style for the table */
+    table
+
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table headings */
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for table headings */
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Style for h2 header */
+h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+/* Style for buttons */
+button {
+    padding: 8px 16px;
+    background-color: #000000;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+    button:hover {
+        background-color: #ff0000;
+    }
+
+/* Style for textboxes */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+/* Style for GridView */
+#GridView1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    #GridView1 th,
+    #GridView1 td {
+        padding: 8px;
+        border: 1px solid #333;
+    }
+
+    #GridView1 th {
+        background-color: #131b4b;
+        color: #fff;
+    }
+
